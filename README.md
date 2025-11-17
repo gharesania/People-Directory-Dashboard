@@ -1,12 +1,53 @@
-# React + Vite
+# 👥 People Directory Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Employee Management Dashboard** built using **React**, providing full CRUD operations, search, filters, pagination, and profile management. Designed with reusable components, clean UI, and API integration using MockAPI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### ✅ Core Functionality
+- Add, Edit, Delete Users (CRUD)
+- View detailed user profile in modal
+- Change or remove profile image
+- Real-time toast notifications
+- Fully responsive layout (Header + Sidebar + Content)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔍 Search, Filter & Pagination
+- Search across name, email, username, role, and teams
+- Filter by Role
+- Filter by Team
+- Auto-updating results
+- Pagination for large datasets
+
+### 🎨 UI Components
+- Team Selector (multi-select pill UI)
+- Status Badge (color-coded)
+- User Menu dropdown
+- Clean table view with profile images
+- Beautiful cards on Dashboard
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**  
+- React  
+- React Router  
+- Axios  
+- Bootstrap / React-Bootstrap  
+- Lucide Icons  
+
+**Backend (Mock):**  
+- MockAPI (REST API)
+
+---
+
+### ⭐ Future Improvements
+- Authentication (login/signup)
+- Role-based access control
+- Sorting by columns
+- Dark mode
+- Activity logs
+- Integration with real backend (Node.js + MongoDB)
+
