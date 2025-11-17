@@ -43,6 +43,13 @@ A modern and responsive **Employee Management Dashboard** built using **React**,
 
 ---
 
+## 🔗 Live Demo
+
+👉 **View the project here:**  
+https://exquisite-pothos-321d38.netlify.app/home
+
+---
+
 ### ⭐ Future Improvements
 - Authentication (login/signup)
 - Role-based access control
