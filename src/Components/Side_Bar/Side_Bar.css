@@ -1,0 +1,19 @@
+.sidebar-container ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sidebar-container ul:hover{
+    color: #6A37C4;
+}
+
+.sidebar-container {
+  width: 180px;      /* smaller, cleaner */
+  min-width: 180px;  /* prevent shrinking */
+  flex-shrink: 0;    /* keeps sidebar from collapsing */
+  padding: 18px 12px;
+  background: white;
+}

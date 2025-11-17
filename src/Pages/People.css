@@ -1,0 +1,232 @@
+/* User Count */
+.user-count {
+  background-color: #dcccf9;
+  color: #6A37C4;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+  box-shadow: 0 2px 6px rgba(106, 55, 196, 0.3);
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Loading */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.loading-lottie {
+  width: 180px;
+  height: 180px;
+}
+
+.loading-text {
+  color: #6A37C4;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+/* Loading */
+
+.team-pill {
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.35em 0.75em;
+  margin-right: 6px;
+  margin-bottom: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  text-transform: capitalize;
+}
+
+/* Search Box */
+.search-box {
+  border-bottom: 2px solid #ccc;
+  transition: border-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 6px;
+  padding-right: 0.3rem;
+}
+
+.search-input {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.search-input::placeholder {
+  color: #aaa;
+}
+
+.search-btn {
+  border: none !important;
+  background: transparent !important;
+  transition: transform 0.2s ease;
+}
+
+.search-btn:hover {
+  transform: scale(1.1);
+}
+/* Search Box */
+
+/* Filter Button */
+.filter-btn {
+  border: none !important;
+  background: transparent !important;
+  transition: transform 0.2s ease;
+}
+
+.filter-btn {
+  border: none !important;
+  background-color: #fff !important;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background-color: #f1f0ff !important;
+  transform: scale(1.05);
+}
+
+/* Filter Button */
+
+/* Add User Button */
+.add-user {
+  background-color: #6A37C4 !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.6rem 1.2rem;
+  box-shadow: 0 3px 6px rgba(106, 55, 196, 0.25);
+  transition: all 0.25s ease-in-out;
+  letter-spacing: 0.3px;
+  white-space: nowrap;          /* ✅ Prevents text wrapping */
+  display: inline-flex;         /* ✅ Keeps it neat */
+  align-items: center;
+  justify-content: center;
+}
+
+.add-user:hover {
+  background-color: #5b2fb3 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(106, 55, 196, 0.3);
+}
+
+.add-user:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 6px rgba(106, 55, 196, 0.2);
+}
+
+.add-user:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 0.25rem rgba(106, 55, 196, 0.3) !important;
+}
+
+@media (max-width: 576px) {
+  .add-user {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
+/* Add User Button */
+
+form label {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+form select, 
+form input {
+  border-radius: 8px !important;
+  font-size: 0.95rem;
+}
+
+form select:focus, 
+form input:focus {
+  border-color: #6A37C4 !important;
+  box-shadow: 0 0 0 0.2rem rgba(106, 55, 196, 0.25);
+}
+
+
+.table-hover tbody tr:hover {
+  background-color: #f8f6ff;
+  transition: 0.3s ease;
+}
+
+
+/* Pagination */
+.pagination-container {
+  margin-top: 1.5rem;
+}
+
+.pagination {
+  gap: 6px;
+}
+
+.pagination .page-item .page-link {
+  border: none;
+  color: #6A37C4;
+  background-color: transparent;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: rgba(106, 55, 196, 0.1);
+  color: #6A37C4;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #6A37C4 !important;
+  color: white !important;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(106, 55, 196, 0.25);
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #ccc;
+  background-color: transparent;
+}
+/* Pagination */
+
+
+/* Fix table row height */
+.table tbody tr {
+  height: 70px; /* You can adjust this value (60–80px works best) */
+  vertical-align: middle; /* Vertically center all content */
+}
+
+/* Keep profile images nicely centered */
+.table tbody tr td img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+/* Optional: Add subtle hover for better interactivity */
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease;
+}
+
+.action-btn {
+  padding: 4px 7px !important;
+}
+
+
+.table tbody tr {
+  height: 62px;
+}

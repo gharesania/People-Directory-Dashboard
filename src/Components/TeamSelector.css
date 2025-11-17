@@ -1,0 +1,26 @@
+.team-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.team-pill {
+  padding: 6px 14px;
+  background: #f1f1f1;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: 0.2s;
+  user-select: none;
+}
+
+.team-pill:hover {
+  background: #e2e2e2;
+}
+
+.team-pill.selected {
+  background: #6a37c4;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
